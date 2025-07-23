@@ -1,0 +1,16 @@
+/* import link of inter font family */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+/* import link of noto sharif font family */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import "tailwindcss";
+
+@layer utilities{
+    .font-inter{
+        font-family: "Inter", sans-serif;
+    }
+    .font-noto-sharif{
+        font-family: "Noto Serif", serif;
+    }
+}
